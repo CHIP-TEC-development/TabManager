@@ -1,0 +1,10 @@
+name: TabMan
+main: io.github.rookietec9.EnderPlugin.EnderPlugin
+version: Infdev
+commands:
+   TabMan:
+      aliases: [TM]
+      description: Main Command.
+      usage: /<command>
+      permission: TM.Command
+      permission-message: You don't have <permission> 
