@@ -1,5 +1,5 @@
 name: TabMan
-main: io.github.rookietec9.EnderPlugin.EnderPlugin
+main: org.CHIPTEC.tabman.TabMan
 version: Infdev
 commands:
    TabMan:
