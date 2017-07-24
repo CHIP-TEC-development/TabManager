@@ -18,7 +18,11 @@ public class TabMan extends JavaPlugin {
 		instance = this;
 		if (!this.getDataFolder().exists())
 			this.getDataFolder().mkdir();
-
+				if (new File(this.getDataFolder().getPath() + "\\Commands").mkdirs()) {
+					//TODO Write MSG
+				} else {
+					//TODO Write MSG
+				}
 	}
 
 	public void onDisable() {
@@ -36,7 +40,7 @@ public class TabMan extends JavaPlugin {
 	public void registerTabbers() {
 		for (int i = 0; i < filesList.length; i++) {
 			JavaPlugin plug = (JavaPlugin) Bukkit.getPluginManager().getPlugin(Bukkit.getServer()
-					.getPluginCommand(String.valueOf(filesList[i]).replace(".yml", "")).getPlugin().getName());
+					.getPluginCommand(String.valueOf(filesList[i]).replace(".yml", "")).getPlugin().getName()); //TODO Change 
 			Command cmd = Bukkit.getServer().getPluginCommand(String.valueOf(filesList[i]).replace(".yml", ""));
 			plug.getCommand(cmd.getName());
 		}
