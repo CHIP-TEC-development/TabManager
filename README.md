@@ -14,7 +14,7 @@ Spoiler: it doesn't. At least not yet.
 TabManager will
 
 ### Versions
-Versions will be named by the Greek Alphabet, followed by the plugin name and a number to identify which user pressed the final edit.
+Versions will be named by the <a href="https://en.wikipedia.org/wiki/Greek_alphabet">Greek Alphabet</a>, followed by the plugin name and a number to identify which user pressed the final edit.
 <br>
 <br>
 For example, "αTabManager9"
