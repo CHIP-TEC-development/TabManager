@@ -8,7 +8,9 @@ tab executors. Tab Executors can be specific to permission, player, argument len
 <a href="https://ibb.co/cOp6N5"><img src="https://preview.ibb.co/cbWLh5/tab.gif" alt="tab" border="0" /></a>
 
 ### How it Works
+<spoiler>
 Spoiler: it doesn't. At least not yet.
+</spoiler>
 
 ### How it will Works
 TabManager will
