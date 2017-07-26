@@ -15,8 +15,11 @@ TabManager will
 
 ### Versions
 Versions will be named by the Greek Alphabet, followed by the plugin name and a number to identify which user pressed the final edit.
-
+<br>
 For example, "αTabManager9"
+<br>
 Version: Alpha
+<br>
 Plugin: TabManager
+<br>
 Number: 9 (TheEnderCrafter9)
