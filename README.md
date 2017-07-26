@@ -13,7 +13,7 @@ Spoiler: it doesn't. At least not yet.
 ### How it will Works
 TabManager will
 
-###Versions
+### Versions
 Versions will be named by the Greek Alphabet, followed by the plugin name and a number to identify which user pressed the final edit.
 
 For example, "αTabManager9"
