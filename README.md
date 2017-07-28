@@ -12,6 +12,8 @@ Spoiler: it doesn't. At least not yet.
 
 ### How it will Works
 TabManager will work almost exclusively based off of configs, but will have a command to change values in those configs. 
+<br>
+Upon first boot, the plugin will create a folder in the plugins folder which will contain a subfolder for each plugin (with the exception of this one). Each subfolder will then have a YAML file named after each command in the plugin. From there, you will be able to add tab lists specific to argument length and a whole lot of others things.
 
 ### Versions
 Versions will be named by the <a href="https://en.wikipedia.org/wiki/Greek_alphabet">Greek Alphabet</a>, followed by the plugin name and a number to identify which user pressed the final edit. 
