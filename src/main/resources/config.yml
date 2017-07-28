@@ -1,8 +1,2 @@
 #Edit Values Here.
 #Use the `#` for comments.
-
-#Need Op?
-op: true
-
-# Default Level. This sets the level of a player that is not in the config.
-default: 1
