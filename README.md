@@ -15,12 +15,15 @@ TabManager will work almost exclusively based off of configs, but will have a co
 Upon first boot, the plugin will create a folder in the plugins folder which will contain a subfolder for each plugin (with the exception of this one). Each subfolder will then have a YAML file named after each command in the plugin. From there, you will be able to add tab lists specific to argument length and a whole lot of others things.
 
 ### Versions
-Versions will be named by the <a href="https://en.wikipedia.org/wiki/Greek_alphabet">Greek Alphabet</a>, followed by the plugin name and a number to identify which user pressed the final edit. 
+Versions will be named by the <a href="https://en.wikipedia.org/wiki/Greek_alphabet">Greek Alphabet</a>, followed by the plugin name and a number to identify which user pressed the final edit. If the build is the final one of the version, it will be a capital letter, if not, it will be a lowercase letter.
+
 <br>
 <br>
 For example, "α-TabManager-9"
 <br>
 Version: <i>Alpha</i>
+<br>
+Last: <i>false</i>
 <br>
 Plugin: <i>TabManager</i>
 <br>
