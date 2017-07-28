@@ -3,7 +3,7 @@ package org.CHIPTEC.tabman;
 import java.io.File;
 
 import org.bukkit.Bukkit;
-import org.bukkit.command.Command;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class TabMan extends JavaPlugin {
@@ -18,11 +18,15 @@ public class TabMan extends JavaPlugin {
 		instance = this;
 		if (!this.getDataFolder().exists())
 			this.getDataFolder().mkdir();
-				if (new File(this.getDataFolder().getPath() + "\\Commands").mkdirs()) {
-					//TODO Write MSG
-				} else {
-					//TODO Write MSG
-				}
+
+		for (Plugin p : Bukkit.getServer().getPluginManager().getPlugins()) {
+			if (new File(this.getDataFolder().getPath() + p.getName()).mkdirs()) {
+				System.out.print("[TM]" + "Sucessfully created plugin folder " + p.getName());
+			} else {
+				System.out.print("[TM]" + "Failed to sucessfully create plugin folder " + p.getName());
+			}
+		}
+
 	}
 
 	public void onDisable() {
@@ -39,10 +43,7 @@ public class TabMan extends JavaPlugin {
 	 */
 	public void registerTabbers() {
 		for (int i = 0; i < filesList.length; i++) {
-			JavaPlugin plug = (JavaPlugin) Bukkit.getPluginManager().getPlugin(Bukkit.getServer()
-					.getPluginCommand(String.valueOf(filesList[i]).replace(".yml", "")).getPlugin().getName()); //TODO Change 
-			Command cmd = Bukkit.getServer().getPluginCommand(String.valueOf(filesList[i]).replace(".yml", ""));
-			plug.getCommand(cmd.getName());
+			// HEHHEHE
 		}
 	}
 
