@@ -1,0 +1,5 @@
+#Skips the plugin, hence not generating a folder and files for 
+# it.
+skip:
+- EnderPlugin
+debugMode: 0 

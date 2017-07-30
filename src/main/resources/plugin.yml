@@ -1,6 +1,6 @@
 name: TabMan
 main: org.CHIPTEC.tabman.TabMan
-version: Infdev
+version: Alpha
 commands:
    TabMan:
       aliases: [TM]

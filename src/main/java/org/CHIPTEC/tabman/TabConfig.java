@@ -17,6 +17,7 @@ import com.google.common.io.ByteStreams;
 
 import net.md_5.bungee.api.ChatColor;
 
+//OUTDATED.
 public class TabConfig {
 	private final String fileName;
 	private final JavaPlugin plugin;
