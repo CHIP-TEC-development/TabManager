@@ -1,5 +1,5 @@
 name: TabMan
-main: org.CHIPTEC.tabman.TabMan
+main: TabMan
 version: Alpha
 commands:
    TabMan:
