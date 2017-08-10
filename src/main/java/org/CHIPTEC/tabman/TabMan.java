@@ -42,6 +42,8 @@ public class TabMan extends JavaPlugin {
             simpleMap = (SimpleCommandMap) bukkitSimpleMap.get(Bukkit.getServer());
         } catch (IllegalAccessException e) {
             this.debug("NMS didn't work. Error pt2");
+            e.printStackTrace();
+            System.out.print(e.getCause().getMessage());
         }
         saveDefaultConfig();
         instance = this;
@@ -70,9 +72,6 @@ public class TabMan extends JavaPlugin {
             }
 
             for (Command cmd : simpleMap.getCommands()) /* ((PluginCommand) commandMap.getCommand(cmd.getName())).setExecutor(null); */ debug(cmd.getName());
-
-//            if (new File(this.getDataFolder().getPath() + File.separator + p.getName() + File.separator + "").mkdir()) {
-//            }
 
         }
     }
